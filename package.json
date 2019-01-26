@@ -1,0 +1,29 @@
+{
+  "name": "flower-store-api",
+  "version": "0.0.1",
+  "description": "Flower store concept api for study purposes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kimuraz/flower-store-api.git"
+  },
+  "keywords": [
+    "api",
+    "hapi",
+    "node",
+    "js",
+    "study"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimuraz/flower-store-api/issues"
+  },
+  "homepage": "https://github.com/kimuraz/flower-store-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
