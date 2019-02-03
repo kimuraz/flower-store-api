@@ -11,7 +11,17 @@ module.exports = [
                     return Flower.find() // promisse -https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise
                     break;
                 case 'post':
-                    const flower = new Flower(request.payload);//body do post
+                    const flower = new Flower({
+                        name: request.payload.name,
+                        value: request.payload.value,
+                        quantity: request.payload.quantity,
+                        description: request.payload.description
+                    });
+                   /* try{
+                        flower.save()
+                    } catch(err){
+                        console.log(err);
+                    } */
                     return flower.save()
                     break;
                 default: 
