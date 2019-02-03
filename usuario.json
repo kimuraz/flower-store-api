@@ -1,0 +1,7 @@
+{
+    "name":"nome_do_usuário",
+    "data_de_nascimento": "DD/MM/YYYY",
+    "cpf": "XXX.XXX.XXX-XX",
+    "sexo": "M/F",
+    "email": "usuario@usuario.com"
+}
