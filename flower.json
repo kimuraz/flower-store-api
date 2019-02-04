@@ -1,0 +1,9 @@
+{
+  "nome": "Flor_de_exemplo",
+  "id_do_produto": "00X",
+  "descrição": "descrição_do_produto",
+  "valor do produto": "R$: ZZZZ,ZZ",
+  "quantidade_no_estoque":"00Y",
+  "foto":"./image/foto.jpg"
+
+}
