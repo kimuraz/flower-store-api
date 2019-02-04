@@ -1,0 +1,9 @@
+{
+    "name":"string",
+    "password": "hashed",
+    "email": "user@user.user",
+    "dateOfBirth": "MM/DD/YYYY",
+    "socialNumber": "number",
+    "gender":"m/f",
+    "deliveryAdress":"String"
+}
