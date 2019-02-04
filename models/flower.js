@@ -6,7 +6,7 @@ var FlowerSchema = new Schema({
         type: String,
         required: true
     },
-    value: {
+    price: {
         type: Number,
         required: true
     },

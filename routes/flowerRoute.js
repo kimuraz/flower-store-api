@@ -13,7 +13,7 @@ module.exports = [
                 case 'post':
                     const flower = new Flower({
                         name: request.payload.name,
-                        value: request.payload.value,
+                        price: request.payload.price,
                         quantity: request.payload.quantity,
                         description: request.payload.description
                     });
